@@ -1,0 +1,405 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	header
+		{
+			padding:80px 0 880px;
+		}
+		/*section_2*/
+		.second_section
+		{
+			padding:0 0 180px 0;
+		}
+		.iphone-showcase
+		{
+			position:relative;
+			bottom:0px;
+			right:0px;	
+		}
+		.passcode_adaptive
+		{
+			width:100%;
+			height:auto;
+			padding:60px 15px;
+		}
+		/*section_3*/
+	.map-showcase
+	{
+		position:relative;
+		bottom:0px;
+		left:0%;
+	}
+	.map
+	{
+		width:100%;
+		height:auto;
+		padding:40px 15px;
+	}
+		#perfect_plan .toggle-container .switch-toggles:after {
+	  left: 20px;
+	  top: 173px;
+	}
+	#perfect_plan .toggle-container .switch-toggles.active:after {
+	  left: 150px;
+	  top: 173px;
+	}
+	.logo
+	{
+		display:none;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 750px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	header
+	{
+		padding:80px 0 900px;
+	}
+
+	nav
+	{
+		height: 60px;
+		line-height: 50px;
+	}
+
+	.btn_position
+	{
+		display:inline-block;
+		text-align: center;
+	}
+
+	#main-nav.active {
+	  background-color: #ffffff;
+	  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+	  -ms-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+	  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+	  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+	}
+
+	.logo
+	{
+		display:none;
+	}
+
+	.menu
+	{
+		padding: 0;
+	}
+
+	.menu li
+	{
+		text-align:center;
+		display: block;
+		padding: 1% 3%;
+		left:0;
+		top:0;
+		background-color: #ffffff;
+	}
+
+	.menu_btn
+	{
+	    padding: 0px;
+	    margin: 10px;
+		float:none;
+	}
+
+	.div-icon
+	{
+		padding:50px 15px 0 15px;
+	}
+
+	/*section_2*/
+	.second_section
+	{
+		padding:0 0 100px 0;
+	}
+	.iphone-showcase
+	{
+		position:relative;
+		bottom:0px;
+		right:0px;	
+	}
+	.passcode_adaptive
+	{
+		width:100%;
+		height:auto;
+		padding:60px 15px;
+	}
+		/*section_3*/
+	.map-showcase
+	{
+		position:relative;
+		bottom:0px;
+		left:0%;
+	}
+	.map
+	{
+		width:100%;
+		height:auto;
+		padding:40px 15px;
+	}
+	#perfect_plan .toggle-container .switch-toggles:after {
+	  left: 20px;
+	  top: 173px;
+
+	}
+	#perfect_plan .toggle-container .switch-toggles.active:after {
+	  left: 150px;
+	  top: 173px;
+	}
+
+}
+@media only screen and (max-width : 602px) {
+	#perfect_plan .toggle-container .switch-toggles:after {
+	  left: 20px;
+	  top: 227px;
+
+	}
+	#perfect_plan .toggle-container .switch-toggles.active:after {
+	  left: 150px;
+	  top: 227px;
+	}
+	}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+header
+{
+	padding:80px 0 890px;
+}
+.header_iphone
+{
+  position: absolute;
+  margin:50px 0 0 -140px;
+  bottom: -620px;
+  width:280px;
+}
+
+nav
+{
+	height: 60px;
+	line-height: 50px;
+}
+
+.btn_position
+{
+	display:inline-block;
+	text-align: center;
+}
+
+#main-nav.active {
+  background-color: #ffffff;
+  padding: 2px 0;
+  height:90px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+}
+
+.menu
+{
+	padding: 0;
+}
+
+.menu li
+{
+	text-align:center;
+	display: block;
+	padding: 1% 3%;
+	left:0;
+	top:0;
+	background-color: #ffffff;
+}
+
+.menu_btn
+{
+    padding: 0px;
+    margin: 10px;
+	float:none;
+}
+	/*section_2*/
+	.second_section
+	{
+		padding:0 0 100px 0;
+	}
+	.iphone-showcase
+	{
+		position:relative;
+		bottom:0px;
+		right:0px;	
+	}
+	.passcode_adaptive
+	{
+		width:100%;
+		height:auto;
+		padding:60px 15px;
+	}
+		/*section_3*/
+	.map-showcase
+	{
+		position:relative;
+		bottom:0px;
+		left:0%;
+	}
+	.map
+	{
+		width:100%;
+		height:auto;
+		padding:40px 15px;
+	}
+                  /*NEWPROVIDENCE_buttons*/
+    .email_block .btn
+	{
+		position: relative;
+		margin:15px 0 40px 0;
+	}
+	#perfect_plan .toggle-container .switch-toggles:after {
+	  left: 20px;
+	  top: 227px;
+
+	}
+	#perfect_plan .toggle-container .switch-toggles.active:after {
+	  left: 150px;
+	  top: 227px;
+	}
+	                  /*block_pro*/
+	.individual
+	{
+		text-align: center;
+	}
+	.block_starter
+	{
+		margin-top:60px;
+		max-width: 100%;
+		float:none;
+	}
+	.block_pro
+	{
+		max-width: 100%;
+		margin-top:0px;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+header
+{
+	padding:80px 0 940px;
+	background-image: url('../img/banner_background.jpg');
+	background-size: cover;
+	overflow: hidden;
+	background-position: center center;
+}
+.header_iphone
+{
+  position: absolute;
+  margin:50px 0 0 -140px;
+  bottom: -620px;
+  width:280px;
+}
+
+nav
+{
+	height: 60px;
+	line-height: 50px;
+}
+
+.btn_position
+{
+	display:inline-block;
+	text-align: center;
+}
+
+#main-nav.active {
+  background-color: #ffffff;
+  padding: 2px 0;
+  height:90px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+}
+
+.menu
+{
+	padding: 0;
+}
+
+.menu li
+{
+	text-align:center;
+	display: block;
+	padding: 1% 3%;
+	left:0;
+	top:0;
+	background-color: #ffffff;
+}
+
+.menu_btn
+{
+    padding: 0px;
+    margin: 10px;
+	float:none;
+}
+	/*section_2*/
+	.second_section
+	{
+		padding:0 0 100px 0;
+	}
+	.iphone-showcase
+	{
+		position:relative;
+		bottom:0px;
+		right:0px;	
+	}
+	.passcode_adaptive
+	{
+		width:100%;
+		height:auto;
+		padding:60px 15px;
+	}
+		/*section_3*/
+	.map-showcase
+	{
+		position:relative;
+		bottom:0px;
+		left:0%;
+	}
+	.map
+	{
+		width:100%;
+		height:auto;
+		padding:40px 15px;
+	}
+}
